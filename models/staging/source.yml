@@ -1,0 +1,11 @@
+version: 2
+sources:
+    - name: datafeed_shared_schema
+      database: "{{('DEMO')}}"
+      schema: STAGING_SCHEMA
+      tables:
+        - name: RAW_CUSTOMER_DATA
+        - name: RAW_ORDERS
+
+    
+        
